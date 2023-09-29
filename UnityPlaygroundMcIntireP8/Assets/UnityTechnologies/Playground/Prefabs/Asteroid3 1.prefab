@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3547857989790568386}
   - component: {fileID: 689487498539915195}
   - component: {fileID: 5067261099577278856}
+  - component: {fileID: 3030704353580583394}
   m_Layer: 0
   m_Name: Asteroid3 1
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5910444500092489422}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.74, y: 5.71, z: 0}
+  m_LocalPosition: {x: -4.28, y: 14.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,3 +221,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyWhenActivated: 0
   healthChange: -1
+--- !u!114 &3030704353580583394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5910444500092489422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f0bfabf363d4ec5993fbd4f9908ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  direction: {x: 0, y: -30}
+  relativeToRotation: 1
